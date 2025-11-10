@@ -1,0 +1,8 @@
+# Copyright (c) 2025, tonies GmbH
+#
+# SPDX-License-Identifier: LicenseRef-Proprietary
+
+menuconfig LIBBACKTRACE
+        bool "Embedded Backtrace and Stack Unwinder for ARM Cortex-M"
+        default n
+

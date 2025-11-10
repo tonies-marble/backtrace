@@ -1,0 +1,9 @@
+# Copyright (c) 2025, Tonies GmbH
+#
+# SPDX-License-Identifier: LicenseRef-Proprietary
+
+---
+name: libbacktrace
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig

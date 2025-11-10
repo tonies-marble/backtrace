@@ -1,0 +1,15 @@
+# Copyright (c) 2025, Tonies GmbH
+#
+# SPDX-License-Identifier: LicenseRef-Proprietary
+
+if (CONFIG_LIBBACKTRACE)
+
+cmake_minimum_required(VERSION 3.20.0)
+
+zephyr_library_named(libbacktrace)
+zephyr_library_include_directories(${CMAKE_CURRENT_LIST_DIR}/../include/)
+zephyr_include_directories(${CMAKE_CURRENT_LIST_DIR}/../include/)
+zephyr_library_sources(${CMAKE_CURRENT_LIST_DIR}/../backtrace/backtrace.c)
+
+endif()
+
